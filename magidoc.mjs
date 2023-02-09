@@ -1,4 +1,6 @@
 import { fileURLToPath } from 'node:url';
+import * as dotenv from 'dotenv';
+dotenv.config();
 const { pages } = await import(`./pages.mjs?id=${Math.random()}`);
 
 export default {
@@ -6,10 +8,6 @@ export default {
     type: 'url',
     url: 'https://api.rasayel.io/api/graphql',
     headers: {
-      /**
-       * Since Magidoc uses configuration as code, you can perform
-       * authentication in this file or use environment variables.
-       */
       Authorization: process.env.RASAYEL_API_KEY,
     },
   },
@@ -18,9 +16,8 @@ export default {
     staticAssets: fileURLToPath(new URL('./assets', import.meta.url)),
     options: {
       appTitle: 'Rasayel Developer Documentation',
-      appLogo:
-        'https://uploads-ssl.webflow.com/62a044a47db17fa8bb8b0b16/62a1b443f4890fd0ed63f442_Group%201682.svg',
-      appFavicon: 'https://rasayel.io/favicon.ico',
+      appLogo: '/logo.svg',
+      appFavicon: '/favicon.ico',
       pages: pages,
       siteMeta: {
         description: 'The API Documentation for Rasayel',
