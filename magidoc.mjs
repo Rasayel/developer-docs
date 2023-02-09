@@ -16,7 +16,7 @@ export default {
     staticAssets: fileURLToPath(new URL('./assets', import.meta.url)),
     options: {
       appTitle: 'Rasayel Developer Documentation',
-      appLogo: '/logo.svg',
+      appLogo: '/logo-shape.svg',
       appFavicon: '/favicon.ico',
       pages: pages,
       siteMeta: {
