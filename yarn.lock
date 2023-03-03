@@ -3,13 +3,13 @@
 
 
 "@magidoc/cli@^3.2.1":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/@magidoc/cli/-/cli-3.2.1.tgz#6cadea496778b619d5ee6018b63876437fc565db"
-  integrity sha512-jXSWUhD8BHLNbaNXUaVwdJymooKxpBXq+VcFxMoaClteU4J0FY91CBZakcNlMqHveDVMMLXUvejoPx6ZuJTitQ==
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/@magidoc/cli/-/cli-3.5.0.tgz#33e933b765a01a8b3b6a7b0fc706f304d20f515d"
+  integrity sha512-n4iLZ0NHwwF/FQ1VHeREqPrZ5P54wxW+JNUvGzvqcrqpBmDFBrlAZ8gR3KOYdMCHbqIXTN5B0ASDpRxmATo9dw==
   dependencies:
-    "@magidoc/plugin-starter-variables" "^3.2.1"
-    "@magidoc/rollup-plugin-gql-schema" "^3.2.1"
-    axios "^1.2.6"
+    "@magidoc/plugin-starter-variables" "^3.5.0"
+    "@magidoc/rollup-plugin-gql-schema" "^3.5.0"
+    axios "^1.3.4"
     chokidar "^3.5.3"
     commander "^10.0.0"
     extract-zip "^2.0.1"
@@ -17,21 +17,21 @@
     listr2 "^5.0.7"
     lodash "^4.17.21"
     sirv "^2.0.2"
-    zod "^3.20.2"
+    zod "^3.20.6"
 
-"@magidoc/plugin-starter-variables@^3.2.1":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/@magidoc/plugin-starter-variables/-/plugin-starter-variables-3.2.1.tgz#c008fd5968629640e0e2b77bc1420e8f81182297"
-  integrity sha512-LitA2Bcyo6pceNE22tTLmHMawIxehcCPa6xBAPt011L+1We0MB1ftiPKk/PHl4JFMbzLOy6yBEK++IqOwRGsfQ==
+"@magidoc/plugin-starter-variables@^3.5.0":
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/@magidoc/plugin-starter-variables/-/plugin-starter-variables-3.5.0.tgz#81469b662b384533afd8a5323e40247bda1fba0c"
+  integrity sha512-P2KIsyk0jzwLBDlMNW92fYNC7OIQ3+MSQhIK21xsAvxfSt71zCL3IsYdlb4JgNxo1EYs9AB+qe1oe74NX1Nb7g==
   optionalDependencies:
-    zod "^3.20.2"
+    zod "^3.20.6"
 
-"@magidoc/rollup-plugin-gql-schema@^3.2.1":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/@magidoc/rollup-plugin-gql-schema/-/rollup-plugin-gql-schema-3.2.1.tgz#a6788fd1122c1c15a578107c229d76708903d9c0"
-  integrity sha512-E49sdCCEHWUP4cLdq8p3vGAg56SqZpr4aidTlE+vpC5dPXuOTCRemmnL+cXnCKxo4QThCJgwyj7n1Hr6GKqrdg==
+"@magidoc/rollup-plugin-gql-schema@^3.5.0":
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/@magidoc/rollup-plugin-gql-schema/-/rollup-plugin-gql-schema-3.5.0.tgz#6c2490bdd3f48c858e6948c30445f02809d87bd5"
+  integrity sha512-o1qNcwKN5ju3wYzVCk219eQjNIat2r+Gd7dhLlhYRzutLjU2TIuHlqL6TyQBER/i/HUsjXZkGquoGznPuoS18w==
   dependencies:
-    axios "^1.2.6"
+    axios "^1.3.4"
     fast-glob "^3.2.12"
     graphql "^16.6.0"
 
@@ -62,9 +62,9 @@
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
 "@types/node@*":
-  version "18.11.18"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.18.tgz#8dfb97f0da23c2293e554c5a50d61ef134d7697f"
-  integrity sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==
+  version "18.14.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.14.5.tgz#4a13a6445862159303fc38586598a9396fc408b3"
+  integrity sha512-CRT4tMK/DHYhw1fcCEBwME9CSaZNclxfzVMe7GsO6ULSwsttbj70wSiX6rZdIjGblu93sTJxLdhNIT85KKI7Qw==
 
 "@types/yauzl@^2.9.1":
   version "2.10.0"
@@ -118,10 +118,10 @@ asynckit@^0.4.0:
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==
 
-axios@^1.2.6:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.3.0.tgz#4cb0d72213989dec08d4b10129e42063bcb3dc78"
-  integrity sha512-oCye5nHhTypzkdLIvF9SaHfr8UAquqCn1KY3j8vsrjeol8yohAdGxIpRPbF1bOLsx33HOAatdfMX1yzsj2cHwg==
+axios@^1.3.4:
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.3.4.tgz#f5760cefd9cfb51fd2481acf88c05f67c4523024"
+  integrity sha512-toYm+Bsyl6VC5wSkfkbbNB6ROv7KY93PEBBL6xyDczaIHasAiv4wPqQ/c4RjoQzipxRD2W5g21cOqQulZ7rHwQ==
   dependencies:
     follow-redirects "^1.15.0"
     form-data "^4.0.0"
@@ -648,7 +648,7 @@ yauzl@^2.10.0:
     buffer-crc32 "~0.2.3"
     fd-slicer "~1.1.0"
 
-zod@^3.20.2:
-  version "3.20.2"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-3.20.2.tgz#068606642c8f51b3333981f91c0a8ab37dfc2807"
-  integrity sha512-1MzNQdAvO+54H+EaK5YpyEy0T+Ejo/7YLHS93G3RnYWh5gaotGHwGeN/ZO687qEDU2y4CdStQYXVHIgrUl5UVQ==
+zod@^3.20.6:
+  version "3.20.6"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.20.6.tgz#2f2f08ff81291d47d99e86140fedb4e0db08361a"
+  integrity sha512-oyu0m54SGCtzh6EClBVqDDlAYRz4jrVtKwQ7ZnsEmMI9HnzuZFj8QFwAY1M5uniIYACdGvv0PBWPF2kO0aNofA==
