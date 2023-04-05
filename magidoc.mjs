@@ -18,6 +18,7 @@ export default {
       appTitle: 'Rasayel Developer Documentation',
       appLogo: '/logo-shape.svg',
       appFavicon: '/favicon.ico',
+      customStyles: ['/rasayelStyle.css'],
       pages: pages,
       siteMeta: {
         description: 'The API Documentation for Rasayel',

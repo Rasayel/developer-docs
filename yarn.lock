@@ -2,34 +2,34 @@
 # yarn lockfile v1
 
 
-"@magidoc/cli@^3.2.1":
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/@magidoc/cli/-/cli-3.5.0.tgz#33e933b765a01a8b3b6a7b0fc706f304d20f515d"
-  integrity sha512-n4iLZ0NHwwF/FQ1VHeREqPrZ5P54wxW+JNUvGzvqcrqpBmDFBrlAZ8gR3KOYdMCHbqIXTN5B0ASDpRxmATo9dw==
+"@magidoc/cli@^3.6.0":
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/@magidoc/cli/-/cli-3.6.0.tgz#669aadef02c0e7bab6bd98745fe547f32dd2ecf1"
+  integrity sha512-1eaS//4RBGkuDXNySFTXrWfAfWLjZ8ILOP9F8XhLkkif8UaA3dwtPzAOmV877IJ5oSKnI0ocF4Y4LvrxhPLyHw==
   dependencies:
-    "@magidoc/plugin-starter-variables" "^3.5.0"
-    "@magidoc/rollup-plugin-gql-schema" "^3.5.0"
+    "@magidoc/plugin-starter-variables" "^3.6.0"
+    "@magidoc/rollup-plugin-gql-schema" "^3.6.0"
     axios "^1.3.4"
     chokidar "^3.5.3"
     commander "^10.0.0"
     extract-zip "^2.0.1"
-    fs-extra "^11.1.0"
-    listr2 "^5.0.7"
+    fs-extra "^11.1.1"
+    listr2 "^5.0.8"
     lodash "^4.17.21"
     sirv "^2.0.2"
-    zod "^3.20.6"
+    zod "^3.21.4"
 
-"@magidoc/plugin-starter-variables@^3.5.0":
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/@magidoc/plugin-starter-variables/-/plugin-starter-variables-3.5.0.tgz#81469b662b384533afd8a5323e40247bda1fba0c"
-  integrity sha512-P2KIsyk0jzwLBDlMNW92fYNC7OIQ3+MSQhIK21xsAvxfSt71zCL3IsYdlb4JgNxo1EYs9AB+qe1oe74NX1Nb7g==
+"@magidoc/plugin-starter-variables@^3.6.0":
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/@magidoc/plugin-starter-variables/-/plugin-starter-variables-3.6.0.tgz#e5b8e2a37a4656e10e014c0c06a84d927642f90e"
+  integrity sha512-PEaxT2TEqvI9Jf+8EQR0P38sDON9j759eOrfE0kKyOlwpzeHv3eg51KNlmR1kF2B5h9TmIQJFrxwfeGi6Lx+1Q==
   optionalDependencies:
-    zod "^3.20.6"
+    zod "^3.21.4"
 
-"@magidoc/rollup-plugin-gql-schema@^3.5.0":
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/@magidoc/rollup-plugin-gql-schema/-/rollup-plugin-gql-schema-3.5.0.tgz#6c2490bdd3f48c858e6948c30445f02809d87bd5"
-  integrity sha512-o1qNcwKN5ju3wYzVCk219eQjNIat2r+Gd7dhLlhYRzutLjU2TIuHlqL6TyQBER/i/HUsjXZkGquoGznPuoS18w==
+"@magidoc/rollup-plugin-gql-schema@^3.6.0":
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/@magidoc/rollup-plugin-gql-schema/-/rollup-plugin-gql-schema-3.6.0.tgz#52a0ab4ebee9449038382092bf60a64a5b49717b"
+  integrity sha512-RhqVRvtIxR1mEqrUi4xTn2a3YddzhB/1e2fCzovBEaePTkQxQ1ukxysJVHOPyyDW1jDOWJkj+4UHZ7+rvgI3nA==
   dependencies:
     axios "^1.3.4"
     fast-glob "^3.2.12"
@@ -294,10 +294,10 @@ form-data@^4.0.0:
     combined-stream "^1.0.8"
     mime-types "^2.1.12"
 
-fs-extra@^11.1.0:
-  version "11.1.0"
-  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.1.0.tgz#5784b102104433bb0e090f48bfc4a30742c357ed"
-  integrity sha512-0rcTq621PD5jM/e0a3EJoGC/1TC5ZBCERW82LQuwfGnCa1V8w7dpYH1yNu+SLb6E5dkeCBzKEyLGlFrnr+dUyw==
+fs-extra@^11.1.1:
+  version "11.1.1"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.1.1.tgz#da69f7c39f3b002378b0954bb6ae7efdc0876e2d"
+  integrity sha512-MGIE4HOvQCeUCzmlHs0vXpih4ysz4wg9qiSAu6cd42lVwPbTM1TjV7RusoyQqMmk/95gdQZX72u+YW+c3eEpFQ==
   dependencies:
     graceful-fs "^4.2.0"
     jsonfile "^6.0.1"
@@ -375,10 +375,10 @@ jsonfile@^6.0.1:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
-listr2@^5.0.7:
-  version "5.0.7"
-  resolved "https://registry.yarnpkg.com/listr2/-/listr2-5.0.7.tgz#de69ccc4caf6bea7da03c74f7a2ffecf3904bd53"
-  integrity sha512-MD+qXHPmtivrHIDRwPYdfNkrzqDiuaKU/rfBcec3WMyMF3xylQj3jMq344OtvQxz7zaCFViRAeqlr2AFhPvXHw==
+listr2@^5.0.8:
+  version "5.0.8"
+  resolved "https://registry.yarnpkg.com/listr2/-/listr2-5.0.8.tgz#a9379ffeb4bd83a68931a65fb223a11510d6ba23"
+  integrity sha512-mC73LitKHj9w6v30nLNGPetZIlfpUniNSsxxrbaPcWOjDb92SHPzJPi/t+v1YC/lxKz/AJ9egOjww0qUuFxBpA==
   dependencies:
     cli-truncate "^2.1.0"
     colorette "^2.0.19"
@@ -648,7 +648,7 @@ yauzl@^2.10.0:
     buffer-crc32 "~0.2.3"
     fd-slicer "~1.1.0"
 
-zod@^3.20.6:
-  version "3.20.6"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-3.20.6.tgz#2f2f08ff81291d47d99e86140fedb4e0db08361a"
-  integrity sha512-oyu0m54SGCtzh6EClBVqDDlAYRz4jrVtKwQ7ZnsEmMI9HnzuZFj8QFwAY1M5uniIYACdGvv0PBWPF2kO0aNofA==
+zod@^3.21.4:
+  version "3.21.4"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.21.4.tgz#10882231d992519f0a10b5dd58a38c9dabbb64db"
+  integrity sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==
