@@ -2,7 +2,7 @@
   "name": "rasayel-dev-docs",
   "version": "0.0.1",
   "dependencies": {
-    "@magidoc/cli": "^3.6.0",
+    "@magidoc/cli": "^4.1.2",
     "dotenv": "^16.0.3"
   },
   "scripts": {
