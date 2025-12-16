@@ -27,6 +27,9 @@ export default {
       queryGenerationFactories: {
         Phone: '+353800000000',
         MdString: '**test** __testing__ `testing`', // Markdown
+        Timezone: "UTC",
+        Url: "http://app.rasayel.io",
+        BigInt: 1000
       },
     },
   },
